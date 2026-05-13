@@ -4,6 +4,5 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Home Page"
-
+return "Feature1 Page"
 app.run(debug=True)
